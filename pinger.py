@@ -100,14 +100,6 @@ def parse(rqst,dns_name,region):
         rsp = 'HTTP/1.1 400 BAD REQUEST \r\n\r\n'
     return rsp
 
-#Attempt at threading function which didn't work becuase of 
-#all the global variables..I think 
-#def ThreadFunction(conn,dns_name,region):
-#    rqst=conn.recv(2048)
-#    rsp = parse(rqst,dns_name,region)
-#    conn.sendall(rsp)
-#    conn.close()
-        
 
 ############################
 # run_pinger_server(dns_name, region,port,central_host, central_port)

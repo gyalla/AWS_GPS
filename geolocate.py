@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+####################################################################################
 # Author: Gopal Yalla
 # Date: 3/17/2015
 #
@@ -12,7 +12,8 @@
 # requests from users.
 #
 # example: ./geolocate ec2-18-218-156-22.us-east-2.compute.amazonaws.com 2000
-import sys            # for sys.argv
+####################################################################################
+import sys            
 import socket 
 
 # Get the central_host name and port number from the command line
