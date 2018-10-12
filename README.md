@@ -1,6 +1,7 @@
-# Amazon Web Services - Global Positioning Systems (AWS-GPS)
+# AWSome GPS
+## Amazon Web Services - Global Positioning System
 
-AWS-GPS is a simple geolocation tool for Amazon Web Services. By measuring ping times to different AWS servers, this
+AWSome_GPS is a simple geolocation tool for Amazon Web Services. By measuring ping times to different AWS servers, this
 software is able to approximate the location of a host to the nearest server. One server acts as a the central point of 
 communication, which the client interacts with directly; the other servers are 'pingers' that only communicate with the central server. 
 Once the client gives the central serve a hostname through the web interface, the central server tells the pingers to ping 
@@ -8,7 +9,7 @@ the hostname and report back times. The pinger with the shorest ping time is cho
 
 ## Getting Started
 
-To make use of AWS-GPS you need to have at least two EC2 instances running in a VPC on Amazon Web Services. Suppose the there are three instanace running on AWS labeled 
+To make use of AWSome_GPS you need to have at least two EC2 instances running in a VPC on Amazon Web Services. Suppose the there are three instanace running on AWS labeled 
 ec2-center.compute.amazonaws.com, ec2-pinger1.compute.amazonaws.com, ec2-pinger1.compute.amazonaws.com. First run 
 
 ```
